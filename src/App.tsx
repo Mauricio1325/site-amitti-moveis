@@ -52,7 +52,7 @@ export default function App() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-8">
-              <a href="https://wa.me/5547999999999" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-gold text-black text-[12px] font-bold uppercase tracking-[0.2em] hover:bg-gold-hover transition-all flex items-center gap-2">
+              <a href="https://wa.me/5547992373755" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-gold text-black text-[12px] font-bold uppercase tracking-[0.2em] hover:bg-gold-hover transition-all flex items-center gap-2">
                 Fale com a Amitti
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </a>
@@ -267,11 +267,11 @@ export default function App() {
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <span className="flex items-center gap-2 text-[10px] uppercase tracking-widest text-gold mb-3">
               <Phone size={12} />
-              Contato
+              Contato / WhatsApp
             </span>
-            <span className="text-sm text-white font-medium tracking-wider">
-              (47) 99999-9999
-            </span>
+            <a href="https://wa.me/5547992373755" target="_blank" rel="noopener noreferrer" className="text-sm text-white font-medium tracking-wider hover:text-gold transition-colors">
+              (47) 99237-3755
+            </a>
           </div>
         </div>
         
